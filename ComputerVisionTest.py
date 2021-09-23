@@ -83,8 +83,6 @@ while True:
 
 	cv2.putText(image, str(checkNumber()), (width - 100, height - 100), cv2.FONT_HERSHEY_SIMPLEX, 3, (255, 255, 255), 4)
 
-	#fgmask = handMask.apply(image)
-
 	#Draw on webcam
 	cv2.imshow("Image", image)
 	
